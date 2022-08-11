@@ -23,6 +23,9 @@ module.exports = {
         header: "#181c2c",
         product: "#23262C",
       },
+      screens: {
+        ss: "500px",
+      },
     },
   },
   plugins: [],

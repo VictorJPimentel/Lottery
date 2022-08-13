@@ -3,7 +3,7 @@ import React from "react";
 function Form() {
   return (
     <>
-      <div className="min-h-screen  sm:flex sm:flex-row  justify-center bg-amber-300 lg:p-50 ms:p-10 ss:p-5 rounded-3xl shadow-xl xl:m-20 m-6  ">
+      <div className="min-h-screen  sm:flex sm:flex-row  justify-center bg-amber-300 lg:p-50   rounded-3xl shadow-xl xl:m-20 m-6  ">
         <div className="flex-col flex  self-center lg:p-10 sm:max-w-5xl xl:max-w-lg  z-10 sm:p-1">
           <div className="self-start hidden lg:flex flex-col  text-white">
             <div className="flex items-center mb-5">
@@ -12,10 +12,15 @@ function Form() {
             <h1 className="my-3 font-semibold text-5xl">
               Everyone Can Be a Winner!
             </h1>
+            <p className="pr-3">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups
+            </p>
           </div>
         </div>
-        <div className="flex justify-center self-center  z-10 ">
-          <div className="p-12 bg-primary mx-auto rounded-3xl w-100 xl:p-10 w-96 ">
+        <div className="flex justify-center self-center  z-10 w-96">
+          <div className="p-12 bg-primary mx-auto rounded-3xl w-100 xl:p-10 ">
             <div className="mb-4">
               <h3 className="font-semibold text-2xl text-black">
                 Start Here!{" "}

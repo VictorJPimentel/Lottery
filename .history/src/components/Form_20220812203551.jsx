@@ -12,6 +12,11 @@ function Form() {
             <h1 className="my-3 font-semibold text-5xl">
               Everyone Can Be a Winner!
             </h1>
+            <p className="pr-3">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups
+            </p>
           </div>
         </div>
         <div className="flex justify-center self-center  z-10 ">
